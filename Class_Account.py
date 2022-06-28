@@ -36,7 +36,8 @@ class Signature:
     def printSignature(self):
         print(self.signature)
 
-
+        #Посколкьку в платформе голосования не предполагаются транзакции
+        #Отсутствуют методы связанные с балансом
 class Account:
     def __init__(self):
         self.genAccount()
